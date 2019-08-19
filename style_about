@@ -1,0 +1,9 @@
+/*Selector {
+	property: value ;
+}*/ 
+
+body { background-color:#F2F3F4;}  
+h3 { color: darkblue; }
+table, th, td { border: 1px solid black;} 
+table {width: 50%;} 
+
