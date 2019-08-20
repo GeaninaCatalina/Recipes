@@ -11,3 +11,7 @@ h3 {
 	color: darkblue; 
 	cursor: pointer;
 }
+li {
+	list-style: none;
+	display: inline-block;
+}
