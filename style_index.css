@@ -7,4 +7,7 @@ body {
 	url(background.jpg);
     background-size: cover ;
 }
-h3 { color: darkblue; }
+h3 { 
+	color: darkblue; 
+	cursor: pointer;
+}
