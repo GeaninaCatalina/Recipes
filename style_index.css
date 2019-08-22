@@ -7,6 +7,12 @@ body {
 	url(background.jpg);
     background-size: cover ;
 }
+
+h2 {
+	font-family: 'Times New Roman', Times, serif ; 
+	font-size: 60px; 
+	font-style: italic ; 
+}
 h3 { 
 	color: darkblue; 
 	cursor: pointer;
