@@ -4,40 +4,41 @@
  
 body {
 	background-color: #FFFDFD;
-	margin: 0px
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 1px;
+	margin-bottom: 20px; 
 }
 
 h2 {
 	font-family: fantasy ; 
 	font-size: 3em; 
 	font-style: italic ;
+	color: black; 
 	border-bottom: 2px solid pink;
 	border-right: 2px solid pink;
 	width: 400px ; 
 	text-align: center; 
 	box-shadow: 4px 4px 4px #888888 ; 
-
+}
+a:link {
+	font-family: fantasy;
+	font-style: italic ; 
+	text-decoration: none; 	
+	color: black; 
 }
 .continer {
 	display: flex;
 	flex-wrap:wrap ;
 	justify-content: center; 
-} 
-.breakfast .break{
-	text-align: center; 
-	color:black;
-} 
-.breakfast .break { 
-top:25% ;
-left: 25%; 
-opacity: 0; 
-}
-.breakfast:hover .break {
-	opacity: 1; 
-}
+	position: relative;
+	text-align: center;
+	color: black;
+}	
+
 img {
-	width: 350px; 
-	height: 380px; 
+	width: 450px; 
+	height: 480px; 
 	margin: 5px; 
 	transition: all 1s; 
 } 
@@ -48,6 +49,12 @@ img:hover {
 	filter: alpha(opacity=30) ; 
 } 
 
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
 
 li {
 	list-style: none;
