@@ -4,23 +4,51 @@
  
 body {
 	background-color: #FFFDFD;
+	margin: 0px
 }
 
 h2 {
 	font-family: fantasy ; 
-	font-size: 50px; 
+	font-size: 3em; 
 	font-style: italic ;
-	border-bottom: 2px solid pink;  
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px ; 
+	text-align: center; 
+	box-shadow: 4px 4px 4px #888888 ; 
+
 }
 .continer {
 	display: flex;
 	flex-wrap:wrap ;
 	justify-content: center; 
+} 
+.breakfast .break{
+	text-align: center; 
+	color:black;
+} 
+.breakfast .break { 
+top:25% ;
+left: 25%; 
+opacity: 0; 
+}
+.breakfast:hover .break {
+	opacity: 1; 
 }
 img {
-	width: 50%; 
-	height: 50%; 
-}
+	width: 350px; 
+	height: 380px; 
+	margin: 5px; 
+	transition: all 1s; 
+} 
+
+img:hover {
+	transform: scale(1.1); 
+	opacity: 0.3;
+	filter: alpha(opacity=30) ; 
+} 
+
+
 li {
 	list-style: none;
 	display: inline-block;
