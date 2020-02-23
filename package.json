@@ -1,0 +1,22 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "This is for learning based on the course: https://www.udemy.com/the-complete-web-developer-zero-to-mastery/learn/lecture/8628124#content and is a culinary webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeaninaCatalina/Recipes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeaninaCatalina/Recipes/issues"
+  },
+  "homepage": "https://github.com/GeaninaCatalina/Recipes#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
